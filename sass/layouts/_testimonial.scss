@@ -1,0 +1,46 @@
+.section-testimonial {
+ padding: 0 8rem;
+
+ @media (max-width: 37.5em) {
+   padding: 04rem 8rem;
+ }
+
+  &-text {
+   font-size: 2.3rem;
+   color: $dark-gray;
+   font-weight: 500;
+   width: 55%;
+
+   @media (max-width: 37.5em) {
+     width: 100%;
+     font-weight: 600;
+   }
+  }
+
+  &-story {
+   display: flex;
+   margin-top: 3rem;
+  }
+
+  &-image {
+   height: 8rem;
+   width: 8rem;
+   border-radius: 2rem;
+  }
+
+  &-title {
+   margin-left: 2.5rem;
+
+   &-main {
+    margin-top: .5rem;
+    font-weight: 500;
+    font-size: 1.9rem;
+    color: $dark-gray;
+   }
+
+   &-sub {
+    margin-top: 2rem;
+    color: $dark-gray;
+   }
+  }
+}

@@ -1,0 +1,45 @@
+.form {
+  //display: flex;
+  background-color: $light-gray;
+  margin-top: .8rem;
+  border-radius: 1.2rem;
+  padding: .5rem .3rem;
+  
+  &-1 {
+    width: 35%;
+
+    @media (max-width: 37.5em) {
+      width: 100%;
+    }
+  }
+
+ &-group {
+  display: flex;
+  background-color: $light-gray;
+ 
+ &-input {
+  margin-right: 5rem;
+  border: none;
+  width: 70%;
+  background-color: transparent;
+  outline: none;
+  padding: 0 2rem;
+ }
+ }
+
+ &-input-button {
+  padding: 1.5rem 4rem;
+  background-color: $blue;
+  border: none;
+  border-radius: 1rem;
+  color: $white;
+  font-size: 1.6rem;
+  width: 30%;
+ }
+
+ &-group-input::placeholder {
+  color: $dark-gray;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.6rem;
+ }
+}
